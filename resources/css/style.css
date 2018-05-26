@@ -5,6 +5,8 @@
   Grey 800 #424242
 */
 
+/*Github Page URL --->   https://ankit6889.github.io/ColamrAcademy/  */
+
 /*Universal Style*/
 
 body{
@@ -44,27 +46,6 @@ h3{
   margin: 0 auto;
 }
 
-/*@media only screen and (max-width: 960px){
-  h1{
-    font-size: 2rem;
-    font-weight: 900;
-  }
-
-  h2{
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  h3{
-    font-size: 1rem;
-    font-weight: bold;
-  }
-
-  body{
-    font-size: 9px;
-  }
-} */
-
 
 /*Header Section*/
 header{
@@ -87,6 +68,14 @@ header{
 
 .company img{
   height: 4rem;
+}
+
+header nav a{
+  transition: all 0.8s ease-out;
+}
+
+header nav a:hover{
+  font-weight: bold;
 }
 
 #mobileheader{
